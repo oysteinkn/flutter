@@ -98,7 +98,18 @@ class CupertinoIcons {
   static const IconData conversation_bubble = IconData(0xf3fb, fontFamily: iconFont, fontPackage: iconFontPackage);
 
   /// A person's silhouette in a circle.
+  ///
+  /// See also:
+  ///
+  ///  * [profile_circled_solid], which is similar, but filled.
   static const IconData profile_circled = IconData(0xf419, fontFamily: iconFont, fontPackage: iconFontPackage);
+
+  /// A person's silhouette in a circle.
+  ///
+  /// See also:
+  ///
+  ///  * [profile_circled], which is similar, but not filled.
+  static const IconData profile_circled_solid = IconData(0xf41a, fontFamily: iconFont, fontPackage: iconFontPackage);
 
   /// A '+' sign in a circle.
   static const IconData plus_circled = IconData(0xf48a, fontFamily: iconFont, fontPackage: iconFontPackage);
