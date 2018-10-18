@@ -653,19 +653,33 @@ class CupertinoIcons {
   ///  * [clock_solid], which is similar, but with dots on the clockface.
   static const IconData time_solid = IconData(0xf403, fontFamily: iconFont, fontPackage: iconFontPackage);
 
-  /// An unlocked padlock.
+  /// A locked padlock.
   ///
   /// See also:
   ///
   ///  * [padlock_solid], which is similar, but filled in.
-  static const IconData padlock = IconData(0xf4c8, fontFamily: iconFont, fontPackage: iconFontPackage);
+  static const IconData padlock = IconData(0xf457, fontFamily: iconFont, fontPackage: iconFontPackage);
+
+  /// A locked padlock.
+  ///
+  /// See also:
+  ///
+  ///  * [padlock], which is similar, but not filled in.
+  static const IconData padlock_solid = IconData(0xf458, fontFamily: iconFont, fontPackage: iconFontPackage);
 
   /// An unlocked padlock.
   ///
   /// See also:
   ///
   ///  * [padlock], which is similar, but not filled in.
-  static const IconData padlock_solid = IconData(0xf4c9, fontFamily: iconFont, fontPackage: iconFontPackage);
+  static const IconData padlock_unlocked = IconData(0xf4c8, fontFamily: iconFont, fontPackage: iconFontPackage);
+
+  /// An unlocked padlock.
+  ///
+  /// See also:
+  ///
+  ///  * [padlock], which is similar, but not filled in.
+  static const IconData padlock_unlocked_solid = IconData(0xf4c9, fontFamily: iconFont, fontPackage: iconFontPackage);
 
   /// An open eye.
   ///
@@ -680,4 +694,21 @@ class CupertinoIcons {
   ///
   ///  * [eye], which is similar, but not filled in.
   static const IconData eye_solid = IconData(0xf425, fontFamily: iconFont, fontPackage: iconFontPackage);
+
+  /// An envelope.
+  ///
+  /// See also:
+  ///
+  ///  * [email], which is similar, but filled in.
+  static const IconData email = IconData(0xf422, fontFamily: iconFont, fontPackage: iconFontPackage);
+
+  /// An envelope.
+  ///
+  /// See also:
+  ///
+  ///  * [email], which is similar, but not filled in.
+  static const IconData email_solid = IconData(0xf423, fontFamily: iconFont, fontPackage: iconFontPackage);
+
+
+  static const IconData arrow_left = IconData(0xf3d5, fontFamily: iconFont, fontPackage: iconFontPackage);
 }
