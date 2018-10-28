@@ -757,6 +757,8 @@ class CupertinoIcons {
   ///  * [arrow_right], which is similar, butpointing right.
   static const IconData arrow_left = IconData(0xf3d5, fontFamily: iconFont, fontPackage: iconFontPackage);
 
+  static const IconData arrow_right = IconData(0xf3d6, fontFamily: iconFont, fontPackage: iconFontPackage);
+
   static const IconData sonor = IconData(0xf2ac, fontFamily: iconFont, fontPackage: iconFontPackage);
 
   static const IconData send_arrow = IconData(0xf498, fontFamily: iconFont, fontPackage: iconFontPackage);
@@ -766,4 +768,6 @@ class CupertinoIcons {
   static const IconData help_circled = IconData(0xf445, fontFamily: iconFont, fontPackage: iconFontPackage);
 
   static const IconData help_solid = IconData(0xf446, fontFamily: iconFont, fontPackage: iconFontPackage);
+
+  static const IconData smiley = IconData(0xf3c6, fontFamily: iconFont, fontPackage: iconFontPackage);
 }
